@@ -1,12 +1,8 @@
 package javarush.level.five;
 
 public class Three {
-    String name = "Alex";
-    int age = 2;
-    String address = "Soveta";
-    char sex = 8;
-
     public static void main(String[] args) {
+
 
     }
 }

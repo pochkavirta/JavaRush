@@ -4,12 +4,18 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class One {
-    String name = "Alex";
-    int age = 2;
-    int weight = 4;
-    int strength = 8;
-
     public static void main(String[] args) {
+
+        String[] list = new String[5];
+
+        list[1] = "Mama";
+        String s = list[1];
+
+        System.out.println(list[0]);
+        System.out.println(list[1]);
+        System.out.println(list[2]);
+        System.out.println(list[3]);
+        System.out.println(list[4]);
 
     }
 }
