@@ -5,10 +5,14 @@ import java.io.InputStreamReader;
 
 public class Six {
     public static void main(String[] args) {
+        int[] list = new int[10];
 
+        //заполнение массива
+        for (int i = 0; i < list.length; i++)
+            list[i] = i;
 
+        //вывод на экран
+        for (int i = 0; i < list.length; i++)
+            System.out.println(list[i]);
     }
 }
-//Вводить с клавиатуры числа и вычислить среднее арифметическое.
-//Если пользователь ввел -1, вывести на экран среднее арифметическое всех чисел и завершить программу.
-//-1 не должно учитываться.

@@ -2,22 +2,22 @@ package javarush.level.five;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class One {
     public static void main(String[] args) {
 
-        String[] list = new String[5];
+        ArrayList<String> list = new ArrayList<String>();
 
-        list[1] = "Mama";
-        String s = list[1];
+        list.add("Mama");
 
-        System.out.println(list[0]);
-        System.out.println(list[1]);
-        System.out.println(list[2]);
-        System.out.println(list[3]);
-        System.out.println(list[4]);
+
+        for (int i = 0; i < list.size(); i++)
+        {
+            System.out.println(list.get(i));
+        }
 
     }
 }
 
-//Создать класс Cat. У кота должно быть имя (name, String), возраст (age, int), вес (weight, int), сила (strength, int).
+//создание массива, заполнение, вывод массива
